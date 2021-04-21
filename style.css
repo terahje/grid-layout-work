@@ -183,3 +183,18 @@ footer .copy {
 footer .copy a {
   color: #999;
 }
+
+/* Responsive */
+
+@media (max-width: 600px) {
+  header {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    justify-content: center;
+  }
+
+  section {
+    display: flex;
+    flex-direction: column;
+  }
+}
